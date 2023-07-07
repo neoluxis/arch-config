@@ -1,0 +1,24 @@
+sw_volume: 98
+audio_device_state:1:pulse audio
+audio_device_state:1:Visualizer feed
+state: pause
+current: 4
+time: 30.818000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Drink doch eine met - Bläck Fööss.mp3
+1:Drink doch eine met - Bläck Fööss.mp3
+2:青春 - 長渕剛.mp3
+3:しゃぼん玉 - 長渕剛.mp3
+4:巡恋歌 - 長渕剛.mp3
+5:乾杯 - 長渕剛.mp3
+6:とんぼ - 長渕剛.mp3
+7:勇次 - 長渕剛.mp3
+8:俺らの家まで - 長渕剛.mp3
+playlist_end

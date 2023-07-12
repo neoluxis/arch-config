@@ -1,0 +1,940 @@
+INFO 2023/7/12 10:14:07  launch with argv [/usr/share/typora/Typora]
+Require crypto
+Hooking crypto
+[watch L]
+ls put SLicense
+[L] Read from incorrupted InstallDate
+writeInstallDate fromBTime=true
+overwriteThemeFolder
+Require fs
+INFO 2023/7/12 10:14:07  ------------------start------------------
+typora version: 1.6.6
+undefined
+ls put IDate
+[L] installDate is 7/12/2023, trail remains: 15 days
+[watch L] hasL: false
+[Raven] userId = e898af32-2bfc-4716-beea-4db0da74c3ae
+INFO 2023/7/12 10:14:08  synced recovery
+user-dict.json not found
+[focus] 1
+handle document.loadData
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 2023/7/12 10:14:09  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[blur] 1
+[win] blur
+[focus] 2
+Require os
+request https://store.typora.io/api/client/activate
+[fetch]fetch https://store.typora.io/api/client/activate
+[fetch]Arg {"method":"POST","cache":"no-cache","body":"{\"v\":\"linux|1.6.6\",\"license\":\"95A4UV-2QDM7C-P69ZBX-ZDEMVU\",\"email\":\"neolux.lee@gmail.com\",\"l\":\"neoluxeische | neolux | Linux\",\"f\":\"UU2jXaNk1Z\",\"u\":\"e898af32-2bfc-4716-beea-4db0da74c3ae\",\"type\":\"\",\"force\":false}","headers":{"Content-Type":"application/json","Cache-Control":"no-cache"}}
+[activate]Fingerprint UU2jXaNk1Z
+[activate]Email neolux.lee@gmail.com
+[activate]UUID e898af32-2bfc-4716-beea-4db0da74c3ae
+[activate]License 95A4UV-2QDM7C-P69ZBX-ZDEMVU
+[activate]ComputerInfo neoluxeische | neolux | Linux
+[fetch]RetCode 200
+[fetch]Ret {"code":-1}
+replace ret: {"code":0,"retry":true,"msg":"Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoiVVUyalhhTmsxWiIsImVtYWlsIjoibmVvbHV4LmxlZUBnbWFpbC5jb20iLCJsaWNlbnNlIjoiOTVBNFVWLTJRRE03Qy1QNjlaQlgtWkRFTVZVIiwidHlwZSI6IiJ9"}
+[License] response code is 0
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoiVVUyalhhTmsxWiIsImVtYWlsIjoibmVvbHV4LmxlZUBnbWFpbC5jb20iLCJsaWNlbnNlIjoiOTVBNFVWLTJRRE03Qy1QNjlaQlgtWkRFTVZVIiwidHlwZSI6IiJ9
+backdoor data,return : {"fingerprint":"UU2jXaNk1Z","email":"neolux.lee@gmail.com","license":"95A4UV-2QDM7C-P69ZBX-ZDEMVU","type":""}
+ls put SLicense
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 2023/7/12 10:15:35  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 2023/7/12 10:17:10  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+[Raven] instanceKey = 1efa1577-8786-40d3-a038-130c2c90b3d0
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoiVVUyalhhTmsxWiIsImVtYWlsIjoibmVvbHV4LmxlZUBnbWFpbC5jb20iLCJsaWNlbnNlIjoiOTVBNFVWLTJRRE03Qy1QNjlaQlgtWkRFTVZVIiwidHlwZSI6IiJ9
+backdoor data,return : {"fingerprint":"UU2jXaNk1Z","email":"neolux.lee@gmail.com","license":"95A4UV-2QDM7C-P69ZBX-ZDEMVU","type":""}
+[L] installDate is 7/12/2023, trail remains: 15 days
+[watch L] hasL: true
+Require fs
+INFO 2023/7/12 10:17:10  ------------------start------------------
+typora version: 1.6.6
+undefined
+user-dict.json not found
+INFO 2023/7/12 10:17:10  synced recovery
+[Raven] userId = e898af32-2bfc-4716-beea-4db0da74c3ae
+[focus] 1
+handle document.loadData
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 2023/7/12 10:17:10  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+[blur] 1
+[win] blur
+[focus] 1
+File.setCanCollapsePinnedOutline(true);
+window.File && (function(){File.option.enableAutoSave = true;})();
+window.File && (function(){File.setDefaultImageStorage("per-file-assert");})();
+File.option.useRelativePathForImg = true
+File.option.relativePathWithDot = true
+File.option.autoEscapeImageURL=true;
+File.option.applyImageMoveForWeb = true
+File.setIndentFirstLine(true, true);
+File.setIndentFirstLine(false, true);
+updateTheme
+updateTheme
+updateTheme
+[blur] 1
+[win] blur
+[focus] 1
+[blur] 1
+[win] blur
+[focus] 1
+INFO 2023/7/12 10:22:01  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging
+INFO 2023/7/12 10:22:03  launch with argv [/usr/share/typora/Typora]
+Require process
+Require os
+Require module
+Require lowdb
+Require lodash
+Require util
+Require is-promise
+Require lowdb/adapters/FileSync
+Require graceful-fs
+Require ./Base
+Require ./_stringify
+start LM in devVersion=false
+Require node-machine-id
+Require child_process
+Require crypto
+Hooking crypto
+Require child_process
+Require crypto
+Hooking crypto
+[Raven] instanceKey = 7b75ca03-7377-460b-8dfa-cf528c6d2a5b
+Require crypto
+Hooking crypto
+[watch L]
+PubDec Key:-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+buf: Q1JBQ0tFRF9CWV9ESUFNT05EX0hVTlRFUlN7ImZpbmdlcnByaW50IjoiVVUyalhhTmsxWiIsImVtYWlsIjoibmVvbHV4LmxlZUBnbWFpbC5jb20iLCJsaWNlbnNlIjoiOTVBNFVWLTJRRE03Qy1QNjlaQlgtWkRFTVZVIiwidHlwZSI6IiJ9
+backdoor data,return : {"fingerprint":"UU2jXaNk1Z","email":"neolux.lee@gmail.com","license":"95A4UV-2QDM7C-P69ZBX-ZDEMVU","type":""}
+[L] installDate is 7/12/2023, trail remains: 15 days
+[watch L] hasL: true
+Require fs
+INFO 2023/7/12 10:22:03  ------------------start------------------
+typora version: 1.6.6
+undefined
+user-dict.json not found
+INFO 2023/7/12 10:22:03  synced recovery
+[Raven] userId = e898af32-2bfc-4716-beea-4db0da74c3ae
+[focus] 1
+handle document.loadData
+[RenderProcess 1][Log] [UndoManager] reset commandStack
+[RenderProcess 1][Log] reset NodeMap
+INFO 2023/7/12 10:22:04  synced recovery
+[RenderProcess 1][Log] onBecomeActive
+[RenderProcess 1][Log] File.activeWindow = true
+updateTheme
+updateTheme
+updateTheme
+updateTheme
+updateTheme
+INFO 2023/7/12 10:22:53  synced recovery
+INFO 2023/7/12 10:22:56  synced recovery
+[blur] 1
+[win] blur
+[focus] 1
+addRecentDocument
+INFO 2023/7/12 10:23:03  synced recovery
+[blur] 1
+[win] blur
+[focus] 2
+handle document.loadData
+[RenderProcess 3][Log] [UndoManager] reset commandStack
+[RenderProcess 3][Log] reset NodeMap
+[RenderProcess 3][Log] readContentFrom /home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.md
+INFO 2023/7/12 10:23:04  synced recovery
+[RenderProcess 3][Log] onBecomeActive
+[RenderProcess 3][Log] File.activeWindow = true
+[blur] 2
+[win] blur
+[focus] 1
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:24:09  synced recovery
+INFO 2023/7/12 10:24:12  synced recovery
+INFO 2023/7/12 10:24:14  synced recovery
+INFO 2023/7/12 10:24:16  synced recovery
+INFO 2023/7/12 10:24:18  synced recovery
+INFO 2023/7/12 10:24:21  synced recovery
+INFO 2023/7/12 10:24:25  synced recovery
+INFO 2023/7/12 10:24:27  synced recovery
+INFO 2023/7/12 10:24:28  synced recovery
+INFO 2023/7/12 10:24:31  synced recovery
+INFO 2023/7/12 10:24:33  synced recovery
+INFO 2023/7/12 10:24:35  synced recovery
+INFO 2023/7/12 10:24:39  synced recovery
+INFO 2023/7/12 10:24:41  synced recovery
+INFO 2023/7/12 10:24:43  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:25:33  synced recovery
+INFO 2023/7/12 10:25:36  synced recovery
+INFO 2023/7/12 10:25:41  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:26:37  synced recovery
+INFO 2023/7/12 10:26:39  synced recovery
+INFO 2023/7/12 10:26:45  synced recovery
+INFO 2023/7/12 10:26:46  synced recovery
+INFO 2023/7/12 10:26:49  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:27:08  synced recovery
+INFO 2023/7/12 10:27:10  synced recovery
+INFO 2023/7/12 10:27:11  synced recovery
+INFO 2023/7/12 10:27:13  synced recovery
+INFO 2023/7/12 10:27:15  synced recovery
+INFO 2023/7/12 10:27:17  synced recovery
+INFO 2023/7/12 10:27:19  synced recovery
+INFO 2023/7/12 10:27:21  synced recovery
+INFO 2023/7/12 10:27:25  synced recovery
+INFO 2023/7/12 10:27:26  synced recovery
+File.option.noHintForOpenLink=true;
+INFO 2023/7/12 10:27:35  synced recovery
+INFO 2023/7/12 10:27:39  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:28:34  synced recovery
+INFO 2023/7/12 10:28:37  synced recovery
+INFO 2023/7/12 10:28:40  synced recovery
+INFO 2023/7/12 10:28:41  synced recovery
+INFO 2023/7/12 10:28:53  synced recovery
+INFO 2023/7/12 10:29:00  synced recovery
+INFO 2023/7/12 10:29:05  synced recovery
+INFO 2023/7/12 10:29:11  synced recovery
+INFO 2023/7/12 10:29:13  synced recovery
+[RenderProcess 3][Log] File.reloadContent, {"delayRefresh":true,"skipChangeCount":true,"skipStore":true}
+[RenderProcess 3][Log] reset NodeMap
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:29:32  synced recovery
+INFO 2023/7/12 10:29:35  synced recovery
+INFO 2023/7/12 10:29:36  synced recovery
+INFO 2023/7/12 10:29:49  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:31:11  synced recovery
+INFO 2023/7/12 10:31:14  synced recovery
+INFO 2023/7/12 10:31:17  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:31:25  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:31:35  synced recovery
+INFO 2023/7/12 10:31:37  synced recovery
+INFO 2023/7/12 10:31:39  synced recovery
+INFO 2023/7/12 10:31:43  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:32:07  synced recovery
+INFO 2023/7/12 10:32:08  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:32:42  synced recovery
+INFO 2023/7/12 10:32:46  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:32:52  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:33:23  synced recovery
+INFO 2023/7/12 10:33:28  synced recovery
+INFO 2023/7/12 10:33:30  synced recovery
+INFO 2023/7/12 10:33:36  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:34:08  synced recovery
+INFO 2023/7/12 10:34:10  synced recovery
+INFO 2023/7/12 10:34:12  synced recovery
+INFO 2023/7/12 10:34:14  synced recovery
+INFO 2023/7/12 10:34:16  synced recovery
+INFO 2023/7/12 10:34:18  synced recovery
+INFO 2023/7/12 10:34:24  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 10:34:48  synced recovery
+INFO 2023/7/12 10:34:49  synced recovery
+INFO 2023/7/12 10:34:54  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:05:41  synced recovery
+INFO 2023/7/12 11:05:42  synced recovery
+INFO 2023/7/12 11:05:44  synced recovery
+INFO 2023/7/12 11:05:48  synced recovery
+INFO 2023/7/12 11:05:50  synced recovery
+INFO 2023/7/12 11:05:51  synced recovery
+INFO 2023/7/12 11:05:53  synced recovery
+INFO 2023/7/12 11:05:54  synced recovery
+INFO 2023/7/12 11:05:57  synced recovery
+INFO 2023/7/12 11:06:01  synced recovery
+INFO 2023/7/12 11:06:04  synced recovery
+INFO 2023/7/12 11:06:06  synced recovery
+INFO 2023/7/12 11:06:11  synced recovery
+INFO 2023/7/12 11:06:18  synced recovery
+INFO 2023/7/12 11:06:20  synced recovery
+INFO 2023/7/12 11:06:26  synced recovery
+INFO 2023/7/12 11:06:29  synced recovery
+INFO 2023/7/12 11:06:31  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:08:17  synced recovery
+INFO 2023/7/12 11:08:20  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+File.option.imageUploader="picgo-app"
+reject access to path icon.png
+[blur] 2
+[win] blur
+[focus] 2
+File.option.picgoAppPath="/"
+File.option.picgoAppPath="/b"
+File.option.picgoAppPath="/bi"
+File.option.picgoAppPath="/bin"
+File.option.picgoAppPath="/宾"
+File.option.picgoAppPath="/宾/"
+File.option.picgoAppPath="/宾"
+File.option.picgoAppPath="/"
+File.option.picgoAppPath="/u"
+File.option.picgoAppPath="/us"
+File.option.picgoAppPath="/usr"
+File.option.picgoAppPath="/usr/"
+File.option.picgoAppPath="/usr/b"
+File.option.picgoAppPath="/usr/bi"
+File.option.picgoAppPath="/usr/bin"
+File.option.picgoAppPath="/usr/bin/"
+File.option.picgoAppPath="/usr/bin/p"
+File.option.picgoAppPath="/usr/bin/pi"
+File.option.picgoAppPath="/usr/bin/pic"
+File.option.picgoAppPath="/usr/bin/picg"
+File.option.picgoAppPath="/usr/bin/picgo"
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:16:27  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:22:04  synced recovery
+reject access to path icon.png
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+reject access to path icon.png
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122104.png"]
+INFO 2023/7/12 11:22:56  synced recovery
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123205.png"]
+INFO 2023/7/12 11:23:04  synced recovery
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123039.png"]
+INFO 2023/7/12 11:23:07  synced recovery
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123124.png"]
+INFO 2023/7/12 11:23:09  synced recovery
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123319.png"]
+INFO 2023/7/12 11:23:13  synced recovery
+[blur] 2
+[win] blur
+INFO 2023/7/12 11:23:16  synced recovery
+INFO 2023/7/12 11:23:16  synced recovery
+[focus] 2
+INFO 2023/7/12 11:23:47  synced recovery
+INFO 2023/7/12 11:23:52  synced recovery
+INFO 2023/7/12 11:23:54  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:24:10  synced recovery
+INFO 2023/7/12 11:24:15  synced recovery
+INFO 2023/7/12 11:24:20  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:24:40  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:25:42  synced recovery
+INFO 2023/7/12 11:25:45  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:25:58  synced recovery
+INFO 2023/7/12 11:26:02  synced recovery
+INFO 2023/7/12 11:26:04  synced recovery
+INFO 2023/7/12 11:26:06  synced recovery
+INFO 2023/7/12 11:26:08  synced recovery
+INFO 2023/7/12 11:26:10  synced recovery
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121126937.png"]
+INFO 2023/7/12 11:26:14  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:31:37  synced recovery
+INFO 2023/7/12 11:31:56  synced recovery
+INFO 2023/7/12 11:31:57  synced recovery
+INFO 2023/7/12 11:31:59  synced recovery
+INFO 2023/7/12 11:32:00  synced recovery
+INFO 2023/7/12 11:32:02  synced recovery
+INFO 2023/7/12 11:32:05  synced recovery
+INFO 2023/7/12 11:32:07  synced recovery
+INFO 2023/7/12 11:32:09  synced recovery
+INFO 2023/7/12 11:32:15  synced recovery
+INFO 2023/7/12 11:32:20  synced recovery
+INFO 2023/7/12 11:32:22  synced recovery
+INFO 2023/7/12 11:32:25  synced recovery
+INFO 2023/7/12 11:32:28  synced recovery
+[RenderProcess 3][Log] File.reloadContent, {"delayRefresh":true,"skipChangeCount":true,"skipStore":true}
+[RenderProcess 3][Log] reset NodeMap
+INFO 2023/7/12 11:32:44  synced recovery
+INFO 2023/7/12 11:32:46  synced recovery
+INFO 2023/7/12 11:32:47  synced recovery
+[RenderProcess 3][Log] File.reloadContent, {"delayRefresh":true,"skipChangeCount":true,"skipStore":true}
+[RenderProcess 3][Log] reset NodeMap
+INFO 2023/7/12 11:33:15  synced recovery
+INFO 2023/7/12 11:33:17  synced recovery
+INFO 2023/7/12 11:33:19  synced recovery
+INFO 2023/7/12 11:33:21  synced recovery
+INFO 2023/7/12 11:33:23  synced recovery
+INFO 2023/7/12 11:33:26  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:35:16  synced recovery
+INFO 2023/7/12 11:35:25  synced recovery
+INFO 2023/7/12 11:35:29  synced recovery
+INFO 2023/7/12 11:35:31  synced recovery
+INFO 2023/7/12 11:35:35  synced recovery
+INFO 2023/7/12 11:35:37  synced recovery
+INFO 2023/7/12 11:35:38  synced recovery
+INFO 2023/7/12 11:35:41  synced recovery
+INFO 2023/7/12 11:35:46  synced recovery
+INFO 2023/7/12 11:35:49  synced recovery
+INFO 2023/7/12 11:35:52  synced recovery
+INFO 2023/7/12 11:35:53  synced recovery
+INFO 2023/7/12 11:36:00  synced recovery
+INFO 2023/7/12 11:36:03  synced recovery
+INFO 2023/7/12 11:36:06  synced recovery
+INFO 2023/7/12 11:36:17  synced recovery
+INFO 2023/7/12 11:36:20  synced recovery
+INFO 2023/7/12 11:36:26  synced recovery
+INFO 2023/7/12 11:36:28  synced recovery
+INFO 2023/7/12 11:36:29  synced recovery
+INFO 2023/7/12 11:36:34  synced recovery
+INFO 2023/7/12 11:36:36  synced recovery
+INFO 2023/7/12 11:36:40  synced recovery
+INFO 2023/7/12 11:36:43  synced recovery
+INFO 2023/7/12 11:36:46  synced recovery
+INFO 2023/7/12 11:36:52  synced recovery
+INFO 2023/7/12 11:36:56  synced recovery
+INFO 2023/7/12 11:37:00  synced recovery
+INFO 2023/7/12 11:37:01  synced recovery
+INFO 2023/7/12 11:37:10  synced recovery
+INFO 2023/7/12 11:37:11  synced recovery
+INFO 2023/7/12 11:37:13  synced recovery
+INFO 2023/7/12 11:37:20  synced recovery
+INFO 2023/7/12 11:37:21  synced recovery
+INFO 2023/7/12 11:37:25  synced recovery
+INFO 2023/7/12 11:37:32  synced recovery
+INFO 2023/7/12 11:37:37  synced recovery
+INFO 2023/7/12 11:37:45  synced recovery
+INFO 2023/7/12 11:37:48  synced recovery
+INFO 2023/7/12 11:37:50  synced recovery
+INFO 2023/7/12 11:37:52  synced recovery
+INFO 2023/7/12 11:37:55  synced recovery
+INFO 2023/7/12 11:37:57  synced recovery
+INFO 2023/7/12 11:38:00  synced recovery
+INFO 2023/7/12 11:38:04  synced recovery
+INFO 2023/7/12 11:38:08  synced recovery
+INFO 2023/7/12 11:38:12  synced recovery
+INFO 2023/7/12 11:38:17  synced recovery
+INFO 2023/7/12 11:38:19  synced recovery
+INFO 2023/7/12 11:38:21  synced recovery
+INFO 2023/7/12 11:38:25  synced recovery
+INFO 2023/7/12 11:38:26  synced recovery
+INFO 2023/7/12 11:38:29  synced recovery
+INFO 2023/7/12 11:38:30  synced recovery
+INFO 2023/7/12 11:38:32  synced recovery
+INFO 2023/7/12 11:38:39  synced recovery
+INFO 2023/7/12 11:38:48  synced recovery
+INFO 2023/7/12 11:39:05  synced recovery
+INFO 2023/7/12 11:39:07  synced recovery
+INFO 2023/7/12 11:39:08  synced recovery
+INFO 2023/7/12 11:39:12  synced recovery
+INFO 2023/7/12 11:39:13  synced recovery
+INFO 2023/7/12 11:39:16  synced recovery
+INFO 2023/7/12 11:39:20  synced recovery
+INFO 2023/7/12 11:39:21  synced recovery
+INFO 2023/7/12 11:39:24  synced recovery
+INFO 2023/7/12 11:39:25  synced recovery
+INFO 2023/7/12 11:39:29  synced recovery
+INFO 2023/7/12 11:39:31  synced recovery
+INFO 2023/7/12 11:39:34  synced recovery
+INFO 2023/7/12 11:39:35  synced recovery
+INFO 2023/7/12 11:39:36  synced recovery
+INFO 2023/7/12 11:39:38  synced recovery
+INFO 2023/7/12 11:39:39  synced recovery
+INFO 2023/7/12 11:39:41  synced recovery
+INFO 2023/7/12 11:39:44  synced recovery
+INFO 2023/7/12 11:39:48  synced recovery
+INFO 2023/7/12 11:39:52  synced recovery
+INFO 2023/7/12 11:40:04  synced recovery
+INFO 2023/7/12 11:40:07  synced recovery
+INFO 2023/7/12 11:40:10  synced recovery
+INFO 2023/7/12 11:40:12  synced recovery
+INFO 2023/7/12 11:40:15  synced recovery
+INFO 2023/7/12 11:40:16  synced recovery
+INFO 2023/7/12 11:40:19  synced recovery
+INFO 2023/7/12 11:40:23  synced recovery
+INFO 2023/7/12 11:40:26  synced recovery
+INFO 2023/7/12 11:40:28  synced recovery
+INFO 2023/7/12 11:40:30  synced recovery
+INFO 2023/7/12 11:40:33  synced recovery
+INFO 2023/7/12 11:40:38  synced recovery
+INFO 2023/7/12 11:40:47  synced recovery
+INFO 2023/7/12 11:40:49  synced recovery
+INFO 2023/7/12 11:40:57  synced recovery
+INFO 2023/7/12 11:41:00  synced recovery
+INFO 2023/7/12 11:41:07  synced recovery
+INFO 2023/7/12 11:41:10  synced recovery
+INFO 2023/7/12 11:41:13  synced recovery
+INFO 2023/7/12 11:41:16  synced recovery
+INFO 2023/7/12 11:41:18  synced recovery
+INFO 2023/7/12 11:41:21  synced recovery
+INFO 2023/7/12 11:41:25  synced recovery
+INFO 2023/7/12 11:41:28  synced recovery
+INFO 2023/7/12 11:41:31  synced recovery
+INFO 2023/7/12 11:41:32  synced recovery
+INFO 2023/7/12 11:41:37  synced recovery
+INFO 2023/7/12 11:41:41  synced recovery
+INFO 2023/7/12 11:42:12  synced recovery
+INFO 2023/7/12 11:42:16  synced recovery
+INFO 2023/7/12 11:42:21  synced recovery
+INFO 2023/7/12 11:42:22  synced recovery
+INFO 2023/7/12 11:42:25  synced recovery
+INFO 2023/7/12 11:42:28  synced recovery
+INFO 2023/7/12 11:42:30  synced recovery
+INFO 2023/7/12 11:42:33  synced recovery
+INFO 2023/7/12 11:42:37  synced recovery
+INFO 2023/7/12 11:42:39  synced recovery
+INFO 2023/7/12 11:42:47  synced recovery
+INFO 2023/7/12 11:42:49  synced recovery
+INFO 2023/7/12 11:42:50  synced recovery
+INFO 2023/7/12 11:42:54  synced recovery
+INFO 2023/7/12 11:43:04  synced recovery
+INFO 2023/7/12 11:43:07  synced recovery
+INFO 2023/7/12 11:43:10  synced recovery
+INFO 2023/7/12 11:43:18  synced recovery
+INFO 2023/7/12 11:43:20  synced recovery
+INFO 2023/7/12 11:43:23  synced recovery
+INFO 2023/7/12 11:43:24  synced recovery
+INFO 2023/7/12 11:43:27  synced recovery
+INFO 2023/7/12 11:43:28  synced recovery
+INFO 2023/7/12 11:43:30  synced recovery
+INFO 2023/7/12 11:43:47  synced recovery
+INFO 2023/7/12 11:43:49  synced recovery
+INFO 2023/7/12 11:43:50  synced recovery
+INFO 2023/7/12 11:43:52  synced recovery
+INFO 2023/7/12 11:43:55  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:44:45  synced recovery
+INFO 2023/7/12 11:44:48  synced recovery
+INFO 2023/7/12 11:44:52  synced recovery
+INFO 2023/7/12 11:44:55  synced recovery
+INFO 2023/7/12 11:44:57  synced recovery
+INFO 2023/7/12 11:44:58  synced recovery
+INFO 2023/7/12 11:45:01  synced recovery
+INFO 2023/7/12 11:45:03  synced recovery
+INFO 2023/7/12 11:45:05  synced recovery
+INFO 2023/7/12 11:45:11  synced recovery
+INFO 2023/7/12 11:45:14  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:49:57  synced recovery
+INFO 2023/7/12 11:49:59  synced recovery
+INFO 2023/7/12 11:50:02  synced recovery
+INFO 2023/7/12 11:50:04  synced recovery
+INFO 2023/7/12 11:50:06  synced recovery
+INFO 2023/7/12 11:50:07  synced recovery
+INFO 2023/7/12 11:50:09  synced recovery
+INFO 2023/7/12 11:50:11  synced recovery
+INFO 2023/7/12 11:50:19  synced recovery
+INFO 2023/7/12 11:50:20  synced recovery
+INFO 2023/7/12 11:50:29  synced recovery
+INFO 2023/7/12 11:50:30  synced recovery
+INFO 2023/7/12 11:50:32  synced recovery
+INFO 2023/7/12 11:50:39  synced recovery
+INFO 2023/7/12 11:50:42  synced recovery
+INFO 2023/7/12 11:50:45  synced recovery
+INFO 2023/7/12 11:50:47  synced recovery
+INFO 2023/7/12 11:50:48  synced recovery
+INFO 2023/7/12 11:50:49  synced recovery
+INFO 2023/7/12 11:50:50  synced recovery
+INFO 2023/7/12 11:50:52  synced recovery
+INFO 2023/7/12 11:50:54  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 11:51:27  synced recovery
+INFO 2023/7/12 11:51:30  synced recovery
+INFO 2023/7/12 11:51:37  synced recovery
+INFO 2023/7/12 11:51:38  synced recovery
+INFO 2023/7/12 11:51:40  synced recovery
+INFO 2023/7/12 11:51:47  synced recovery
+INFO 2023/7/12 11:51:49  synced recovery
+INFO 2023/7/12 11:51:51  synced recovery
+INFO 2023/7/12 11:51:52  synced recovery
+INFO 2023/7/12 11:51:53  synced recovery
+INFO 2023/7/12 11:51:55  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:03:13  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:03:20  synced recovery
+INFO 2023/7/12 12:03:24  synced recovery
+INFO 2023/7/12 12:03:26  synced recovery
+INFO 2023/7/12 12:03:30  synced recovery
+INFO 2023/7/12 12:03:32  synced recovery
+INFO 2023/7/12 12:03:34  synced recovery
+INFO 2023/7/12 12:03:36  synced recovery
+INFO 2023/7/12 12:03:38  synced recovery
+INFO 2023/7/12 12:03:41  synced recovery
+INFO 2023/7/12 12:03:48  synced recovery
+INFO 2023/7/12 12:03:49  synced recovery
+INFO 2023/7/12 12:04:46  synced recovery
+INFO 2023/7/12 12:04:52  synced recovery
+INFO 2023/7/12 12:04:53  synced recovery
+INFO 2023/7/12 12:04:58  synced recovery
+INFO 2023/7/12 12:05:00  synced recovery
+INFO 2023/7/12 12:05:01  synced recovery
+INFO 2023/7/12 12:05:04  synced recovery
+INFO 2023/7/12 12:05:05  synced recovery
+INFO 2023/7/12 12:05:08  synced recovery
+INFO 2023/7/12 12:05:13  synced recovery
+INFO 2023/7/12 12:06:53  synced recovery
+INFO 2023/7/12 12:06:55  synced recovery
+INFO 2023/7/12 12:06:56  synced recovery
+INFO 2023/7/12 12:07:03  synced recovery
+INFO 2023/7/12 12:07:04  synced recovery
+INFO 2023/7/12 12:07:07  synced recovery
+INFO 2023/7/12 12:07:15  synced recovery
+INFO 2023/7/12 12:07:17  synced recovery
+INFO 2023/7/12 12:07:19  synced recovery
+INFO 2023/7/12 12:07:22  synced recovery
+INFO 2023/7/12 12:07:24  synced recovery
+INFO 2023/7/12 12:07:36  synced recovery
+INFO 2023/7/12 12:07:38  synced recovery
+INFO 2023/7/12 12:07:46  synced recovery
+INFO 2023/7/12 12:07:52  synced recovery
+INFO 2023/7/12 12:07:54  synced recovery
+INFO 2023/7/12 12:07:56  synced recovery
+INFO 2023/7/12 12:07:58  synced recovery
+INFO 2023/7/12 12:08:03  synced recovery
+INFO 2023/7/12 12:08:06  synced recovery
+INFO 2023/7/12 12:08:21  synced recovery
+INFO 2023/7/12 12:08:23  synced recovery
+INFO 2023/7/12 12:08:24  synced recovery
+INFO 2023/7/12 12:08:27  synced recovery
+INFO 2023/7/12 12:08:28  synced recovery
+INFO 2023/7/12 12:08:30  synced recovery
+INFO 2023/7/12 12:08:31  synced recovery
+INFO 2023/7/12 12:08:33  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:08:38  synced recovery
+INFO 2023/7/12 12:08:42  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:09:28  synced recovery
+INFO 2023/7/12 12:09:31  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:12:21  synced recovery
+INFO 2023/7/12 12:12:22  synced recovery
+INFO 2023/7/12 12:12:27  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:12:34  synced recovery
+INFO 2023/7/12 12:12:37  synced recovery
+INFO 2023/7/12 12:12:38  synced recovery
+INFO 2023/7/12 12:12:42  synced recovery
+INFO 2023/7/12 12:12:45  synced recovery
+INFO 2023/7/12 12:12:47  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:12:54  synced recovery
+INFO 2023/7/12 12:12:56  synced recovery
+INFO 2023/7/12 12:12:59  synced recovery
+INFO 2023/7/12 12:13:03  synced recovery
+INFO 2023/7/12 12:13:05  synced recovery
+INFO 2023/7/12 12:13:09  synced recovery
+INFO 2023/7/12 12:13:12  synced recovery
+INFO 2023/7/12 12:13:14  synced recovery
+INFO 2023/7/12 12:13:16  synced recovery
+INFO 2023/7/12 12:13:19  synced recovery
+INFO 2023/7/12 12:13:20  synced recovery
+INFO 2023/7/12 12:13:22  synced recovery
+INFO 2023/7/12 12:13:24  synced recovery
+INFO 2023/7/12 12:13:27  synced recovery
+INFO 2023/7/12 12:13:29  synced recovery
+INFO 2023/7/12 12:13:31  synced recovery
+INFO 2023/7/12 12:13:32  synced recovery
+INFO 2023/7/12 12:13:34  synced recovery
+INFO 2023/7/12 12:13:36  synced recovery
+INFO 2023/7/12 12:13:43  synced recovery
+INFO 2023/7/12 12:13:45  synced recovery
+INFO 2023/7/12 12:13:49  synced recovery
+INFO 2023/7/12 12:13:52  synced recovery
+INFO 2023/7/12 12:13:54  synced recovery
+INFO 2023/7/12 12:14:00  synced recovery
+INFO 2023/7/12 12:14:04  synced recovery
+INFO 2023/7/12 12:14:06  synced recovery
+INFO 2023/7/12 12:14:09  synced recovery
+INFO 2023/7/12 12:14:11  synced recovery
+INFO 2023/7/12 12:14:14  synced recovery
+INFO 2023/7/12 12:14:16  synced recovery
+INFO 2023/7/12 12:14:18  synced recovery
+INFO 2023/7/12 12:14:20  synced recovery
+INFO 2023/7/12 12:14:22  synced recovery
+INFO 2023/7/12 12:14:23  synced recovery
+INFO 2023/7/12 12:14:25  synced recovery
+INFO 2023/7/12 12:14:27  synced recovery
+INFO 2023/7/12 12:14:28  synced recovery
+INFO 2023/7/12 12:14:30  synced recovery
+INFO 2023/7/12 12:14:32  synced recovery
+INFO 2023/7/12 12:14:34  synced recovery
+INFO 2023/7/12 12:14:36  synced recovery
+INFO 2023/7/12 12:14:38  synced recovery
+INFO 2023/7/12 12:14:42  synced recovery
+INFO 2023/7/12 12:14:49  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:18:59  synced recovery
+INFO 2023/7/12 12:19:14  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:19:30  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:19:51  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:20:05  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:22:21  synced recovery
+INFO 2023/7/12 12:22:27  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:22:54  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:23:36  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[RenderProcess 3][Log] [Upload Result] ["https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121225804.png"]
+INFO 2023/7/12 12:25:07  synced recovery
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+[blur] 2
+[win] blur
+[focus] 2
+INFO 2023/7/12 12:27:05  synced recovery
+----------------before-quit-----------------
+------------------will-quit------------------
+-----------------quit------------------
+closeLogging

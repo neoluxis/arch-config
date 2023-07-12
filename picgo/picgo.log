@@ -1,0 +1,798 @@
+2023-07-08 09:02:50 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-08 09:05:32 [PicGo SUCCESS] 插件安装成功 
+2023-07-08 09:05:37 [PicGo ERROR] 
+------Error Stack Begin------
+TypeError: uploader duplicate id: githubPlus!
+    at Oe.register (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:10205)
+    at Object.register (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:252:29)
+    at gt.registerPlugin (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:39693)
+    at /usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:52128
+    at Array.forEach (<anonymous>)
+    at Dt.install (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:52093)
+    at async IpcMainImpl.<anonymous> (/usr/share/picgo/resources/app.asar/background.js:2:666863)
+-------Error Stack End------- 
+2023-07-08 09:05:37 [PicGo SUCCESS] 插件安装成功 
+2023-07-08 09:07:10 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-08 09:07:20 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-08 09:07:45 [PicGo INFO] Before transform 
+2023-07-08 09:07:45 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-08 09:07:45 [PicGo INFO] Before upload 
+2023-07-08 09:07:45 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-08 09:07:45 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-08 09:07:48 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+-------Error Stack End------- 
+2023-07-08 09:07:48 [PicGo SUCCESS] 
+ 
+2023-07-08 09:08:31 [PicGo INFO] Before transform 
+2023-07-08 09:08:31 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-08 09:08:31 [PicGo INFO] Before upload 
+2023-07-08 09:08:31 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-08 09:08:31 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-08 09:08:33 [PicGo WARN] failed 
+2023-07-08 09:08:33 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307080908556.jpeg",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-08 09:08:33 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307080908556.jpeg",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-10 22:48:54 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-10 22:50:16 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-10 22:50:21 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-10 22:50:26 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-10 22:50:39 [PicGo INFO] Before transform 
+2023-07-10 22:50:39 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-10 22:50:39 [PicGo INFO] Before upload 
+2023-07-10 22:50:39 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-10 22:50:39 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-10 22:50:43 [PicGo WARN] failed 
+2023-07-10 22:50:43 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307102250098.png",
+  "statusCode": 0,
+  "message": "Client network socket disconnected before secure TLS connection was established",
+  "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (node:internal/errors:691:14)\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)\n    at TLSSocket.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "response": {
+    "status": 0,
+    "statusCode": 0,
+    "body": ""
+  }
+} 
+2023-07-10 22:50:43 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307102250098.png",
+  "statusCode": 0,
+  "message": "Client network socket disconnected before secure TLS connection was established",
+  "stack": "Error: Client network socket disconnected before secure TLS connection was established\n    at connResetException (node:internal/errors:691:14)\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1585:19)\n    at TLSSocket.emit (node:events:406:35)\n    at endReadableNT (node:internal/streams/readable:1343:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
+  "response": {
+    "status": 0,
+    "statusCode": 0,
+    "body": ""
+  }
+} 
+2023-07-10 22:51:23 [PicGo ERROR] 
+------Error Stack Begin------
+Error: Can't find no xclip
+    at Socket.<anonymous> (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:47289)
+    at Socket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+-------Error Stack End------- 
+2023-07-10 22:57:20 [PicGo INFO] [PicGo Server] shutdown 
+2023-07-11 08:57:11 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-11 08:57:25 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-11 08:59:11 [PicGo INFO] Before transform 
+2023-07-11 08:59:11 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 08:59:11 [PicGo INFO] Before upload 
+2023-07-11 08:59:11 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 08:59:11 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-11 08:59:12 [PicGo WARN] failed 
+2023-07-11 08:59:12 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110859212.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-11 08:59:12 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110859212.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-11 09:03:02 [PicGo INFO] Before transform 
+2023-07-11 09:03:02 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 09:03:02 [PicGo INFO] Before upload 
+2023-07-11 09:03:02 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 09:03:02 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-11 09:03:06 [PicGo WARN] failed 
+2023-07-11 09:03:06 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110903135.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-11 09:03:06 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110903135.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-11 09:03:34 [PicGo INFO] Before transform 
+2023-07-11 09:03:34 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 09:03:34 [PicGo INFO] Before upload 
+2023-07-11 09:03:34 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 09:03:34 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-11 09:03:36 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+-------Error Stack End------- 
+2023-07-11 09:03:36 [PicGo SUCCESS] 
+ 
+2023-07-11 09:04:51 [PicGo INFO] Before transform 
+2023-07-11 09:04:51 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 09:04:51 [PicGo INFO] Before upload 
+2023-07-11 09:04:51 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 09:04:51 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-11 09:04:55 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+-------Error Stack End------- 
+2023-07-11 09:04:55 [PicGo SUCCESS] 
+ 
+2023-07-11 09:06:36 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-11 09:08:02 [PicGo INFO] [PicGo Server] shutdown 
+2023-07-11 09:08:06 [PicGo INFO] Before transform 
+2023-07-11 09:08:06 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 09:08:06 [PicGo INFO] Before upload 
+2023-07-11 09:08:06 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 09:08:06 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-11 09:08:10 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+-------Error Stack End------- 
+2023-07-11 09:08:10 [PicGo SUCCESS] 
+ 
+2023-07-11 09:08:19 [PicGo INFO] Before transform 
+2023-07-11 09:08:19 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-11 09:08:19 [PicGo INFO] Before upload 
+2023-07-11 09:08:19 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-11 09:08:19 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-11 09:08:21 [PicGo WARN] failed 
+2023-07-11 09:08:21 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110908537.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-11 09:08:21 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307110908537.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 11:11:50 [PicGo INFO] register builtin shortKey command: [picgo:upload] - [CommandOrControl+Shift+P] 
+2023-07-12 11:11:50 [PicGo INFO] register builtin shortKey command: [picgo:upload] - [CommandOrControl+Shift+P] successfully 
+2023-07-12 11:12:18 [PicGo INFO] Before transform 
+2023-07-12 11:12:18 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:12:18 [PicGo INFO] Before upload 
+2023-07-12 11:12:18 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:12:18 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:12:26 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async je.doUpload (/tmp/.mount_picgo.rUNXog/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:19791)
+    at async je.start (/tmp/.mount_picgo.rUNXog/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:18562)
+    at async $t.upload (/tmp/.mount_picgo.rUNXog/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:72724)
+    at async Object.upload (/tmp/.mount_picgo.rUNXog/resources/app.asar/index.js:2:690303)
+    at async cr (/tmp/.mount_picgo.rUNXog/resources/app.asar/index.js:2:693050)
+-------Error Stack End------- 
+2023-07-12 11:12:26 [PicGo SUCCESS] 
+ 
+2023-07-12 11:13:08 [PicGo INFO] Before transform 
+2023-07-12 11:13:08 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:13:08 [PicGo INFO] Before upload 
+2023-07-12 11:13:08 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:13:08 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-12 11:13:09 [PicGo WARN] failed 
+2023-07-12 11:13:09 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121113077.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 11:13:09 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121113077.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 11:17:17 [PicGo INFO] [PicGo Server] shutdown 
+2023-07-12 11:17:56 [PicGo INFO] Before transform 
+2023-07-12 11:17:56 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:17:56 [PicGo INFO] Before upload 
+2023-07-12 11:17:56 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:17:56 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:17:58 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+-------Error Stack End------- 
+2023-07-12 11:17:58 [PicGo SUCCESS] 
+ 
+2023-07-12 11:20:58 [PicGo INFO] Before transform 
+2023-07-12 11:20:58 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:20:58 [PicGo INFO] Before upload 
+2023-07-12 11:20:58 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:20:58 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-12 11:21:01 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image//arch202307121120563.png 
+2023-07-12 11:21:13 [PicGo INFO] Before transform 
+2023-07-12 11:21:13 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:21:13 [PicGo INFO] Before upload 
+2023-07-12 11:21:13 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:21:13 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:21:19 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121121204.png 
+2023-07-12 11:22:19 [PicGo INFO] detect second instance 
+2023-07-12 11:22:36 [PicGo INFO] [PicGo Server] shutdown 
+2023-07-12 11:22:36 [PicGo INFO] [PicGo Server] is listening at 36677 
+2023-07-12 11:22:41 [PicGo INFO] [PicGo Server] get the request {"list":["/tmp/Typora/typora-icon2.png","/tmp/Typora/typora-icon.png"]} 
+2023-07-12 11:22:41 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:22:41 [PicGo INFO] Before transform 
+2023-07-12 11:22:41 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:22:41 [PicGo INFO] Before upload 
+2023-07-12 11:22:41 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:22:41 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:22:43 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122317.png
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122318.png 
+2023-07-12 11:22:43 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122317.png ; https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122318.png 
+2023-07-12 11:22:54 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712102636833-1689128798021-1.png"]} 
+2023-07-12 11:22:54 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:22:54 [PicGo INFO] Before transform 
+2023-07-12 11:22:54 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:22:54 [PicGo INFO] Before upload 
+2023-07-12 11:22:54 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:22:54 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:22:55 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122104.png 
+2023-07-12 11:22:55 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121122104.png 
+2023-07-12 11:23:02 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712103110874.png"]} 
+2023-07-12 11:23:02 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:23:02 [PicGo INFO] Before transform 
+2023-07-12 11:23:02 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:23:02 [PicGo INFO] Before upload 
+2023-07-12 11:23:02 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:23:02 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:23:03 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123205.png 
+2023-07-12 11:23:03 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123205.png 
+2023-07-12 11:23:05 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712103206776.png"]} 
+2023-07-12 11:23:05 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:23:05 [PicGo INFO] Before transform 
+2023-07-12 11:23:05 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:23:05 [PicGo INFO] Before upload 
+2023-07-12 11:23:05 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:23:05 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:23:06 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123039.png 
+2023-07-12 11:23:06 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123039.png 
+2023-07-12 11:23:07 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712103244173.png"]} 
+2023-07-12 11:23:07 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:23:07 [PicGo INFO] Before transform 
+2023-07-12 11:23:07 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:23:07 [PicGo INFO] Before upload 
+2023-07-12 11:23:07 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:23:07 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:23:08 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123124.png 
+2023-07-12 11:23:08 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123124.png 
+2023-07-12 11:23:10 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712110818904.png"]} 
+2023-07-12 11:23:10 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:23:10 [PicGo INFO] Before transform 
+2023-07-12 11:23:10 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:23:10 [PicGo INFO] Before upload 
+2023-07-12 11:23:10 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:23:10 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:23:12 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123319.png 
+2023-07-12 11:23:12 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121123319.png 
+2023-07-12 11:26:11 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712112541628.png"]} 
+2023-07-12 11:26:11 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 11:26:11 [PicGo INFO] Before transform 
+2023-07-12 11:26:11 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 11:26:11 [PicGo INFO] Before upload 
+2023-07-12 11:26:11 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 11:26:11 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 11:26:13 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121126937.png 
+2023-07-12 11:26:13 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121126937.png 
+2023-07-12 12:14:47 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:14:47 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:14:47 [PicGo INFO] Before transform 
+2023-07-12 12:14:47 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:14:47 [PicGo INFO] Before upload 
+2023-07-12 12:14:47 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:14:47 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:14:48 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:14:48 [PicGo SUCCESS] 
+ 
+2023-07-12 12:14:48 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:14:48 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:18:57 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:18:57 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:18:57 [PicGo INFO] Before transform 
+2023-07-12 12:18:57 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:18:57 [PicGo INFO] Before upload 
+2023-07-12 12:18:57 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:18:57 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:18:58 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:18:58 [PicGo SUCCESS] 
+ 
+2023-07-12 12:18:58 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:18:58 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:19:12 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:19:12 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:19:12 [PicGo INFO] Before transform 
+2023-07-12 12:19:12 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:19:12 [PicGo INFO] Before upload 
+2023-07-12 12:19:12 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:19:12 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:19:13 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:19:13 [PicGo SUCCESS] 
+ 
+2023-07-12 12:19:13 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:19:13 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:19:28 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:19:28 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:19:28 [PicGo INFO] Before transform 
+2023-07-12 12:19:28 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:19:28 [PicGo INFO] Before upload 
+2023-07-12 12:19:28 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:19:28 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-12 12:19:29 [PicGo WARN] failed 
+2023-07-12 12:19:29 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121219141.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 12:19:29 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121219141.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 12:19:29 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:19:29 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:19:47 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:19:47 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:19:47 [PicGo INFO] Before transform 
+2023-07-12 12:19:47 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:19:47 [PicGo INFO] Before upload 
+2023-07-12 12:19:47 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:19:47 [PicGo INFO] Uploading... Current uploader is [github] 
+2023-07-12 12:19:50 [PicGo WARN] failed 
+2023-07-12 12:19:50 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121219817.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 12:19:50 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/neoluxis/image/contents/arch202307121219817.png",
+  "statusCode": 401,
+  "message": "Request failed with status code 401",
+  "stack": {},
+  "response": {
+    "status": 401,
+    "statusCode": 401,
+    "body": {
+      "message": "Bad credentials",
+      "documentation_url": "https://docs.github.com/rest"
+    }
+  }
+} 
+2023-07-12 12:19:50 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:19:50 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:20:02 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:20:02 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:20:02 [PicGo INFO] Before transform 
+2023-07-12 12:20:02 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:20:02 [PicGo INFO] Before upload 
+2023-07-12 12:20:02 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:20:02 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:20:04 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:20:04 [PicGo SUCCESS] 
+ 
+2023-07-12 12:20:04 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:20:04 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:22:18 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:22:18 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:22:18 [PicGo INFO] Before transform 
+2023-07-12 12:22:18 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:22:19 [PicGo INFO] Before upload 
+2023-07-12 12:22:19 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:22:19 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:22:20 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:22:20 [PicGo SUCCESS] 
+ 
+2023-07-12 12:22:20 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:22:20 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:22:24 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:22:24 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:22:24 [PicGo INFO] Before transform 
+2023-07-12 12:22:24 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:22:24 [PicGo INFO] Before upload 
+2023-07-12 12:22:24 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:22:24 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:22:26 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:22:26 [PicGo SUCCESS] 
+ 
+2023-07-12 12:22:26 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:22:26 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:22:52 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:22:52 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:22:52 [PicGo INFO] Before transform 
+2023-07-12 12:22:52 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:22:52 [PicGo INFO] Before upload 
+2023-07-12 12:22:52 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:22:52 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:22:53 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:22:53 [PicGo SUCCESS] 
+ 
+2023-07-12 12:22:53 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:22:53 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:23:34 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:23:34 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:23:34 [PicGo INFO] Before transform 
+2023-07-12 12:23:34 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:23:34 [PicGo INFO] Before upload 
+2023-07-12 12:23:34 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:23:34 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:23:35 [PicGo ERROR] 
+------Error Stack Begin------
+HttpError: Bad credentials
+    at /home/neolux/.config/picgo/node_modules/@octokit/request/dist-node/index.js:86:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Octo.upload (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/lib/octokit.js:114:19)
+    at async Object.handle (/home/neolux/.config/picgo/node_modules/picgo-plugin-github-plus/dist/index.js:143:5)
+    at async $e.doUpload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:17198)
+    at async $e.start (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:15969)
+    at async Tt.upload (/usr/share/picgo/resources/app.asar/node_modules/picgo/dist/index.cjs.js:1:71270)
+    at async Object.upload (/usr/share/picgo/resources/app.asar/background.js:2:653584)
+    at async jn (/usr/share/picgo/resources/app.asar/background.js:2:656251)
+    at async /usr/share/picgo/resources/app.asar/background.js:2:657340
+-------Error Stack End------- 
+2023-07-12 12:23:35 [PicGo SUCCESS] 
+ 
+2023-07-12 12:23:35 [PicGo INFO] [PicGo Server] upload result  
+2023-07-12 12:23:35 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2023-07-12 12:25:03 [PicGo INFO] [PicGo Server] get the request {"list":["/home/neolux/Desktop/Summer/2022-ti-c题/openmv-apriltag.assets/image-20230712121220387.png"]} 
+2023-07-12 12:25:03 [PicGo INFO] [PicGo Server] upload files in list 
+2023-07-12 12:25:03 [PicGo INFO] Before transform 
+2023-07-12 12:25:03 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 12:25:03 [PicGo INFO] Before upload 
+2023-07-12 12:25:03 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 12:25:03 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 12:25:06 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121225804.png 
+2023-07-12 12:25:06 [PicGo INFO] [PicGo Server] upload result https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121225804.png 
+2023-07-12 14:36:25 [PicGo INFO] Before transform 
+2023-07-12 14:36:25 [PicGo INFO] Transforming... Current transformer is [path] 
+2023-07-12 14:36:25 [PicGo INFO] Before upload 
+2023-07-12 14:36:25 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2023-07-12 14:36:25 [PicGo INFO] Uploading... Current uploader is [githubPlus] 
+2023-07-12 14:37:05 [PicGo SUCCESS] 
+https://testingcf.jsdelivr.net/gh/neoluxis/image/arch/202307121436060.png 

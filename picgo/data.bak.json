@@ -1,0 +1,136 @@
+{
+  "picBed": {
+    "current": "githubPlus",
+    "uploader": "githubPlus",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "githubPlus",
+        "name": "githubPlus",
+        "visible": true
+      }
+    ],
+    "githubPlus": {
+      "repo": "neoluxis/image",
+      "branch": "main",
+      "token": "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",
+      "path": "arch",
+      "customUrl": "https://testingcf.jsdelivr.net/gh/neoluxis/image/",
+      "origin": "github"
+    },
+    "github": {
+      "repo": "neoluxis/image",
+      "branch": "main",
+      "token": "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",
+      "path": "arch",
+      "customUrl": "https://testingcf.jsdelivr.net/gh/neoluxis/image/"
+    },
+    "proxy": ""
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": false,
+    "rename": false,
+    "autoRename": true,
+    "privacyEnsure": true,
+    "proxy": "",
+    "registry": "",
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": false
+    },
+    "npmProxy": "",
+    "npmRegistry": "",
+    "autoStart": false,
+    "pasteStyle": "markdown"
+  },
+  "needReload": false,
+  "picgoPlugins": {
+    "picgo-plugin-github-plus": true
+  },
+  "picgo-plugin-github-plus": {
+    "lastSync": "2023-07-12 11:21:19"
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "uploader": {
+    "githubPlus": {
+      "configList": [
+        {
+          "repo": "neoluxis/image",
+          "branch": "main",
+          "token": "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neolux",
+          "path": "arch",
+          "customUrl": "https://testingcf.jsdelivr.net/gh/neoluxis/image/",
+          "origin": "github",
+          "_configName": "Default",
+          "_id": "dd1fe585-e72d-4f65-856a-f934df490222",
+          "_createdAt": 1689131524765,
+          "_updatedAt": 1689131524765
+        }
+      ],
+      "defaultId": "dd1fe585-e72d-4f65-856a-f934df490222"
+    },
+    "github": {
+      "configList": [
+        {
+          "repo": "neoluxis/image",
+          "branch": "main",
+          "token": "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neolux",
+          "path": "arch",
+          "customUrl": "https://testingcf.jsdelivr.net/gh/neoluxis/image/",
+          "_configName": "Default",
+          "_id": "bc4be97d-cc29-446c-9a02-88eb0188079b",
+          "_createdAt": 1689131528255,
+          "_updatedAt": 1689131528255
+        }
+      ],
+      "defaultId": "bc4be97d-cc29-446c-9a02-88eb0188079b"
+    }
+  }
+}
